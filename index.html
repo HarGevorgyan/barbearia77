@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia77 — Barbearia no Porto</title>
+<meta name="description" content="Barbearia77 — barbearia clássica em Sarmento de Beires, Porto. Corte, barba e navalha.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="checker-strip" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-word">Barbearia</span><span class="brand-mark">77</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#servicos" data-i18n="navServices">Serviços</a>
+      <a href="#sobre" data-i18n="navAbout">A barbearia</a>
+      <a href="#contacto" data-i18n="navContact">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Escolher idioma / Choose language">
+        <button type="button" class="lang-btn is-active" data-lang="pt">PT</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a class="call-pill" href="tel:+351936225885">936 225 885</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <img class="hero-img" src="img/hero-chairs.jpg" alt="Interior da Barbearia77, com cadeiras de couro e chão em xadrez preto e branco">
+    <div class="hero-scrim"></div>
+    <div class="wrap hero-inner">
+      <h1 data-i18n="heroHeadline">Barbearia à moda antiga,<br>no coração do Porto.</h1>
+      <p class="hero-sub" data-i18n="heroSub">Cadeiras de couro, navalha afiada e o mesmo cuidado de sempre — em Sarmento de Beires.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+351936225885" data-i18n="heroBtnCall">Ligar e marcar</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/barbearia77/" target="_blank" rel="noopener" data-i18n="heroBtnInsta">Seguir no Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="wrap about-block">
+      <div class="about-media">
+        <img src="img/shave.jpg" alt="Barbeiro da Barbearia77 a fazer a barba a um cliente com navalha e toalha quente">
+      </div>
+      <div class="about-copy">
+        <h2 data-i18n="aboutBeardTitle">Cada barba pede tempo.</h2>
+        <p data-i18n="aboutBeardP1">Não despachamos ninguém. Toalha quente, navalha bem afiada e mão firme — é assim que fazemos desde sempre. A cadeira é de couro, o chão é em xadrez e o espelho já viu passar meio bairro.</p>
+        <p data-i18n="aboutBeardP2">Passa por cá para um corte, uma barba feita como deve ser, ou só para o café e a conversa do costume.</p>
+      </div>
+    </div>
+    <div class="wrap about-block about-block-reverse">
+      <div class="about-media">
+        <img src="img/haircut.jpg" alt="Barbeiro a cortar o cabelo de um cliente com máquina, fazendo um degradê preciso na nuca">
+      </div>
+      <div class="about-copy">
+        <h2 data-i18n="aboutHaircutTitle">Um corte bem feito não se atropela.</h2>
+        <p data-i18n="aboutHaircutP1">Máquina, tesoura e olho treinado — cada corte é pensado para o formato da cabeça e o estilo de quem senta na cadeira. Contornos limpos, degradê sem risco e um acabamento que dura semanas, não dias.</p>
+        <p data-i18n="aboutHaircutP2">Do clássico ao degradê mais moderno, ajustamos a técnica ao que o cliente pede e ao que sabemos fazer bem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="services">
+    <div class="wrap">
+      <h2 class="services-title" data-i18n="servicesTitle">Preços</h2>
+      <ul class="price-list">
+        <li class="price-row">
+          <span class="price-name" data-i18n="priceHaircut">Corte</span>
+          <span class="price-leader" aria-hidden="true"></span>
+          <span class="price-value">15€</span>
+        </li>
+        <li class="price-row">
+          <span class="price-name" data-i18n="priceBeard">Barba</span>
+          <span class="price-leader" aria-hidden="true"></span>
+          <span class="price-value">12€</span>
+        </li>
+        <li class="price-row price-row-featured">
+          <span class="price-name" data-i18n="priceBoth">Corte + Barba</span>
+          <span class="price-leader" aria-hidden="true"></span>
+          <span class="price-value">25€</span>
+        </li>
+      </ul>
+      <p class="price-note" data-i18n="priceNote">Preços de referência — para confirmar, é só ligar.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="wrap gallery-grid">
+      <figure class="gallery-item gallery-item-tall">
+        <img src="img/client.jpg" alt="Cliente na barbearia a segurar uma camisola de futebol personalizada com B. Fernandes 16, com dois membros da equipa da Barbearia77">
+        <figcaption data-i18n="galleryCap1">Gente que já passou pela cadeira.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="img/vespa.jpg" alt="Vespa clássica com o logótipo da Barbearia77 pintado à frente, óculos e bigode desenhados no farol">
+        <figcaption data-i18n="galleryCap2">À porta, à espera do próximo cliente.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <h2 data-i18n="contactTitle">Contacto</h2>
+        <dl>
+          <div class="contact-row">
+            <dt data-i18n="dtAddress">Morada</dt>
+            <dd>Rua de Sarmento de Beires 266<br>4250-488 Porto</dd>
+          </div>
+          <div class="contact-row">
+            <dt data-i18n="dtPhone">Telefone</dt>
+            <dd><a href="tel:+351936225885">936 225 885</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt>Instagram</dt>
+            <dd><a href="https://www.instagram.com/barbearia77/" target="_blank" rel="noopener">@barbearia77</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt data-i18n="dtHours">Horário</dt>
+            <dd data-i18n="hoursValue">Ter–Sáb, 10h00–19h00<br>Dom e Seg, encerrado</dd>
+          </div>
+        </dl>
+        <a class="btn btn-primary" href="tel:+351936225885">936 225 885</a>
+      </div>
+      <div class="contact-map">
+        <iframe
+          title="Localização da Barbearia77 no Google Maps"
+          src="https://maps.google.com/maps?q=Rua%20de%20Sarmento%20de%20Beires%20266%2C%204250-488%20Porto&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span data-i18n="footerText">Barbearia77 — Rua de Sarmento de Beires 266, Porto</span>
+    <a href="https://www.instagram.com/barbearia77/" target="_blank" rel="noopener">Instagram ↗</a>
+  </div>
+  <div class="wrap footer-credit">
+    <a class="credit-link" href="https://www.linkedin.com/in/har-gevorgyan/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      <span><span data-i18n="devBy">Site por</span> Harutyun Gevorgyan</span>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
